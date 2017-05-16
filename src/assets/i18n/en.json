@@ -1,0 +1,26 @@
+{
+  "Common": {
+    "Email": "Email",
+    "Password": "Password"
+  },
+  "NavBar": {
+    "SingIn": "Sing In",
+    "SingUp": "Sing Up",
+    "Logout": "Logout",
+    "ChangeRestaurant": "Restaurant",
+    "Blog": "Blog",
+    "Filter": "Filter",
+    "Language" : "Language"
+  },
+  "SingUp": {
+    "NewUser": "New User",
+    "ConfirmPassword" : "Repeat password"
+  },
+  "SingIn": {
+    "Enter": "Enter"
+  },
+  "Language":{
+    "English" : "English",
+    "Spanish" : "Spanish"
+  }
+}

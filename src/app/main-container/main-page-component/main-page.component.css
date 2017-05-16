@@ -1,0 +1,75 @@
+.myGrey {
+  background-color: rgba(205, 205, 205, 0.25)
+}
+
+.myWhite {
+  background-color: rgba(65, 65, 65, 0.76)
+}
+
+.background-image {
+  background-image: url("../../../assets/kitchen-min.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background-image2 {
+  background-image: url("../../../assets/kitchen2-min.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background-image3 {
+  background-image: url("../../../assets/kitchen3-min.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.parallax img { width: 100%; }
+
+
+.center-img{
+  margin: auto;
+  display: block;
+  width: 50vw;
+  margin-top: 15%;
+}
+
+
+
+@media (min-width: 1400px) {
+  .center-img{
+    width: 25vw;
+  }
+}
+
+@media (min-width: 993px) {
+  .equal{
+    display: flex;
+  }
+
+}
+@media (max-width: 750px) {
+
+  .text-lower > h3{
+    font-size: 2rem;
+  }
+  .text-lower > h5{
+    font-size: 1rem;
+  }
+
+}
+
+/*.background-image:before {
+  content:'';
+  box-sizing: inherit;
+  position: absolute;
+  top:0;right:0;bottom:0;left:0;
+  background: rgba(88,68,170,.5);
+}*/

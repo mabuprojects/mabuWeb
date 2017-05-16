@@ -1,0 +1,26 @@
+{
+  "Common": {
+    "Email": "Email",
+    "Password": "Contraseña"
+  },
+  "NavBar": {
+    "SingIn": "Iniciar Sesión",
+    "SingUp": "Registrate",
+    "Logout": "Cerrar Sesión",
+    "ChangeRestaurant": "Cambiar restaurante",
+    "Blog": "Blog",
+    "Filter": "Filtrar",
+    "Language" : "Idioma"
+  },
+  "SingUp": {
+    "NewUser": "Nuevo Usuario",
+    "ConfirmPassword" : "Repite la Contraseña"
+  },
+  "SingIn": {
+    "Enter": "Entra"
+  },
+  "Language":{
+    "English" : "Inglés",
+    "Spanish" : "Español"
+  }
+}

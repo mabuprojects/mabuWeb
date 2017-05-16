@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h1{
+  font-weight: 400;
+}
+h2{
+  font-weight: 200;
+}
+h3{
+  font-weight: 200;
+}
+h4{
+  font-weight: 200;
+}
+main {
+  flex: 1 0 auto;
+}
+
+

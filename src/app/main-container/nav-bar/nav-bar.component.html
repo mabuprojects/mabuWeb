@@ -1,0 +1,89 @@
+<nav>
+  <div class="nav-wrapper nav-bar transparent">
+    <a routerLink="" routerLinkActive="active" class="brand-logo ">
+      <img class="navbarIcon blend" style="height: 67px; margin-top: -3px;"src="assets/mabu.svg">
+      <span class="mabu">Mabu</span></a>
+    <a materialize="sideNav" data-activates="mobile-demo" class="button-collapse " style="cursor: pointer">
+      <i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down li-border-hover">
+      <li><a routerLink="/" routerLinkActive="active" angulartics2On="click" angularticsEvent="DownloadClick"
+             angularticsCategory="precio">Home</a></li>
+      <li><a routerLink="/price" routerLinkActive="active" angulartics2On="click" angularticsEvent="DownloadClick"
+             angularticsCategory="precio">Precio</a></li>
+      <li><a routerLink="/us" routerLinkActive="active" angulartics2On="click" angularticsEvent="DownloadClick"
+             angularticsCategory="precio">Nosotros</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active" angulartics2On="click" angularticsEvent="DownloadClick"
+             angularticsCategory="precio">Contacto</a></li>
+      <li><a materialize="dropdown" class="dropdown-button" data-activates="language" data-stoppropagation="true"><i
+        class=" iconbar material-icons right" data-stoppropagation="true">language</i> </a>
+      </li>
+    </ul>
+
+    <ul class="side-nav" id="mobile-demo">
+      <li><a routerLink="/" routerLinkActive="active" angulartics2On="click" angularticsEvent="DownloadClick"
+             angularticsCategory="precio">Home</a></li>
+      <li><a routerLink="/price" routerLinkActive="active" angulartics2On="click" angularticsEvent="DownloadClick"
+             angularticsCategory="precio">Precio</a></li>
+      <li><a routerLink="/us" routerLinkActive="active" angulartics2On="click" angularticsEvent="DownloadClick"
+             angularticsCategory="precio">Nosotros</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active" angulartics2On="click" angularticsEvent="DownloadClick"
+             angularticsCategory="precio">Contacto</a></li>
+      <li><a materialize="dropdown" class="dropdown-button" data-activates="language1" translate>NavBar.Language<i
+        class="material-icons right">arrow_drop_down</i></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<ul id="language" class="dropdown-content">
+  <li>
+    <a class="truncate" *ngFor="let language of languages" (click)="select(language.value)" translate>
+      <span class="flag-icon flag-icon-{{language.flag}}" style="margin-left: -1px"></span>
+      Language.{{language.label}}
+    </a>
+  </li>
+</ul>
+<ul id="language1" class="dropdown-content">
+  <li>
+    <a class="truncate" *ngFor="let language of languages" (click)="select(language.value)" translate>
+      <span class="flag-icon flag-icon-{{language.flag}}" style="margin-left: -1px"></span>
+      Language.{{language.label}}
+    </a>
+  </li>
+</ul>
+<main style="margin-top: -64px;">
+  <ng-content></ng-content>
+</main>
+<footer class="page-footer nav-bar myWhite">
+  <div class="container">
+    <div class="row">
+      <div class="row">
+        <div class="col s12 l12">
+          <h3 class="center">Con la colaboración de </h3>
+          <br>
+        </div>
+        <div class="col s4  external-logos">
+          <a href="http://www.secot.org"> <img class="responsive-img icon-image" src="assets/secot.png"></a>
+
+        </div>
+        <div class="col s4  external-logos">
+          <a href="http://yuzz.org.es/"> <img class="responsive-img icon-image" src="assets/yuzz.png"></a>
+
+        </div>
+        <div class="col s4  external-logos">
+          <a href="http://www.cise.es/"> <img class="responsive-img icon-image" src="assets/cise.png"></a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-copyright low-footer">
+    <div class="container">
+      © 2017 Copyright Text
+      <a href="mailto:info@mabu.es" class="grey-text text-lighten-4 right" >info@mabu.es</a>
+    </div>
+  </div>
+</footer>

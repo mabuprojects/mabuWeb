@@ -1,0 +1,82 @@
+.nav-bar {
+  background-color: rgba(65, 65, 65, 0.76);
+}
+
+.transparent {
+  background-color: rgba(255, 255, 255, 0.62) !important;
+}
+
+nav {
+  background-color: transparent;
+}
+
+.iconbar:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.iconbar {
+  margin: 0px;
+  padding: 0px 10px;
+}
+
+.dropdown-content li > a {
+  color: black;
+}
+
+.icon-image {
+  display: flex;
+  max-height: 5vh;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.low-footer {
+  padding-bottom: 0px;
+  background-color: #6e6e6e;
+}
+
+a {
+  color: black;
+}
+
+.navbarIcon {
+  cursor: pointer;
+}
+
+.blend {
+  mix-blend-mode: difference;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.mabu {
+  display: block;
+  margin-top: -87px;
+  position: relative;
+  margin-left: 72px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  .mabu{
+    margin-top: -79px;
+  }
+}
+
+
+
+
+
+.myWhite {
+  background-color: rgba(205, 205, 205, 0.25)
+}
+
+.external-logos{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+

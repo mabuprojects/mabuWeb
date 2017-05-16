@@ -1,0 +1,7 @@
+.background-image2 {
+  background-image: url("../../../../assets/italin-min.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
